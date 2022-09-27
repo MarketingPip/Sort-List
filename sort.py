@@ -55,7 +55,7 @@ final = " "
 for item in word_dict:
  # final += f"{letter} ##"
  # print(f"{letter} ##")  
-  final += f"## {letter}" + "\n" + str('\n'.join(word_dict[item])) +"\n"
+  final += f"## {item}" + "\n" + str('\n'.join(word_dict[item])) +"\n"
   
 
 
