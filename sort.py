@@ -24,36 +24,16 @@ Bottom_Text_Value = ""
 
     
 
-# Sort the list alphabetically
-lst = sorted(lst, key=str.lower)
-# Remove the empty spaces in the list
-lst = filter(None, lst)
-
-
-A_Z = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-
 
 # Function To Check If String / Line Is A Number Or Not
-def is_number_regex(s):
-    """ Returns True is string is a number. """
+#def is_number_regex(s):
+    #""" Returns True is string is a number. """
     # Regex Match for Numbers
-    if regex.match("^\d+?\.\d+?$", s) is None:
-        return s.isdigit()
+    #if regex.match("^\d+?\.\d+?$", s) is None:
+   #     return s.isdigit()
     # If match found - returns true.
-    return True
+  #  return True
 
-def checkIfStartsWith(word):
-    Word_List += " "
-    Matches = list(filter(word.startswith, A_Z))
-    for item in Matches:
-        #print(word)
-        Word_List = f"""
-## {item}
-{word}
-"""
-
-## need to write if not in statement
-    return Word_List
 
 
 from collections import defaultdict
@@ -62,10 +42,10 @@ for word in lst:
   word_dict[word[0]].append(word)
 
 final = " "
-for letter in word_dict:
+for word in word_dict:
  # final += f"{letter} ##"
  # print(f"{letter} ##")  
-  final += f"## {letter}" + "\n" + str('\n'.join(word_dict[letter])) +"\n"
+  final += f"## {letter}" + "\n" + str('\n'.join(word_dict[word])) +"\n"
   
 
 
