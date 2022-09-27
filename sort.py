@@ -36,6 +36,16 @@ Bottom_Text_Value = ""
 
 
 
+
+
+
+# Sort the list alphabetically
+lst = sorted(lst, key=str.lower)
+# Remove the empty spaces in the list
+lst = filter(None, lst)
+
+
+
 from collections import defaultdict
 word_dict = defaultdict(list)
 for word in lst:
