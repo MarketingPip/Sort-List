@@ -18,7 +18,9 @@ A Python script to help lists in text files.
 
 
 
+<code>!---START-OF-SORTEDLIST---</code> create a HTML comment with text inside. 
 
+Close the HTML comment with <code>!---END-OF-SORTEDLIST---</code>. All text inside will be sorted into a list... 
 
 
 
@@ -33,14 +35,10 @@ A Python script to help lists in text files.
 
 
 <!---START-OF-SORTEDLIST--->
-<!---START-SORT-TOC:1--->
-## A
-A Python script to help lists in text files.
-A Python script to help lists in text files.
-## d
-does it
-## r
-really tho
+
+
+
+<!---END-OF-SORTEDLIST--->
 
 
 
