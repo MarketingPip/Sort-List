@@ -18,7 +18,7 @@ Close the HTML comment with <code><!---END-OF-SORTEDLIST---></code>. All text in
 
 To make a Table Of Contents <code><!---START-SORT-TOC---></code>  create a HTML comment with text inside. 
 
-Close the HTML comment with <code><!---END-SORT-TOC--->. All text inside will be sorted into a list... 
+Close the HTML comment with <code><!---END-SORT-TOC--->. </code> All text inside will be sorted into a list... 
 
 
 
