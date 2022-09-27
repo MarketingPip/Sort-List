@@ -28,13 +28,12 @@ Close the HTML comment with <code>!---END-OF-SORTEDLIST---</code>. All text insi
 <!---END-SORT-TOC--->
 
 <!---START-OF-SORTEDLIST--->
-<!---START-SORT-TOC:1--->
-<code>!---START-OF-SORTEDLIST---</code> create a HTML comment with text inside.
-## A
-A Python script to help lists in text files.
-## C
-Close the HTML comment with <code>!---END-OF-SORTEDLIST---</code>. All text inside will be sorted into a list...
-## e
-error testing
+test 1 
 <!---END-OF-SORTEDLIST--->
 
+
+
+
+<!---START-OF-SORTEDLIST--->
+test 2 
+<!---END-OF-SORTEDLIST--->
