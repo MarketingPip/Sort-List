@@ -42,10 +42,10 @@ for word in lst:
   word_dict[word[0]].append(word)
 
 final = " "
-for word in word_dict:
+for item in word_dict:
  # final += f"{letter} ##"
  # print(f"{letter} ##")  
-  final += f"## {letter}" + "\n" + str('\n'.join(word_dict[word])) +"\n"
+  final += f"## {letter}" + "\n" + str('\n'.join(word_dict[item])) +"\n"
   
 
 
