@@ -110,7 +110,7 @@ with open(FileName, 'r') as f:
 [Z](#z) |
 {Bottom_Text_Value}
 """       
-    contents = regex.sub("<!---START-OF-SORTEDLIST--->(?s).*<!---END-OF-SORTEDLIST--->", final, contents)
+    contents = regex.sub("<!---START-OF-SORTEDLIST--->(?s).*<!---END-OF-SORTEDLIST--->", f'<!---START-OF-SORTEDLIST--->{final}<!---END-OF-SORTEDLIST--->', contents)
     contents = regex.sub(Re_Sub_Value, TOC, contents)
 
 # With the filename we use early - write out the sorted results
