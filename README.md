@@ -21,6 +21,7 @@ A Python script to help lists in text files.
 
 
 
+
 <!---START-SORT-TOC:1--->
 [0-9](#numbers) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) |
 | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) 
@@ -29,6 +30,7 @@ A Python script to help lists in text files.
 | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) |
 [Z](#z) |
 <!---END-SORT-TOC--->
+
 
 <!---START-OF-SORTEDLIST--->
 <!---START-SORT-TOC:1--->
